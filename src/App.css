@@ -1,10 +1,15 @@
 .App {
   text-align: center;
+  height: 100vh;
+  background-color: dimgrey;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  animation: App-logo-spin infinite 10s linear;
+  height: 90px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
 }
 
 .App-header {
@@ -29,4 +34,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/*here is my css*/
+
+body {
+  height: 100vh;
+  background-color: dimgrey;
+}
+
+button {
+  background-color: cadetblue;
+  margin: 2px;
+  border: solid 1px tan;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.movie {
+  margin: 10px;
+  background-color: grey;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
 }
